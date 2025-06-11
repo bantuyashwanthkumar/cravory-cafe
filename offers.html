@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFERS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      header {
+      background: #d2691e;
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top:0;
+    }
+    nav {
+      display: flex;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+    nav a:hover {
+      background: #f4a261;
+      color: #4b3f2f;
+      transform: scale(1.3);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      margin-right: 5px;}
+     
+    .main-section{
+        display: flex;
+        width:100%;height: 80vh;
+        background-color: #ecb176;
+        text-align: center;
+        justify-content: center;
+    } 
+    .offerimage{
+        padding:20px;
+        height:60vh;
+        width: 1396px;
+        border-radius: 30px;
+    }
+    .offer-section{
+        margin-top: -356px;
+        margin-right: 600px;
+    }
+    .section{
+        background-color: #ecb176;
+        height: 150vh; width:100%;
+        text-align: center;justify-content: center;
+        margin: 2px;
+    }
+    .image-section{
+        margin-top: 10px;
+    }
+    .sub-section{
+        display: flex;
+    }
+    .div-logo:hover{
+         background-color: #f5b786;
+         padding:5px 8px;
+         border-radius: 5px;
+    }
+    /* ------ footer-section ---------------- */
+    footer{
+        background: #343434;
+        padding-top: 50px;
+    }
+    .container{
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-content{
+        width: 33.3%;
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-content p{
+        width:190px;
+        margin: auto;
+        padding: 7px;
+    }
+    .footer-content ul{
+        text-align: center;
+    }
+    .list{
+        padding: 0;
+    }
+    .list li{
+        width: auto;
+        text-align: center;
+        list-style-type:none;
+        padding: 7px;
+        position: relative;
+    }
+    .list li::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: #f18930;
+        transition-duration: .5s;
+    }
+    .list li:hover::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+    .social-icons i{
+        color: white;
+        font-size: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: #f18930;
+    }
+    .social-icons i:hover{
+        color: #f18930;}
+    
+    .bottom-bar{
+        background: #f18930;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+        border: 2px solid white;
+    }
+    .bottom-bar p{
+        color: #343434;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;  
+    }
+    
+</style>
+<body>
+    <header>
+     <div class="div-logo">  
+      <a href="#" class="logo">
+      <img src="logo.jpg" alt="Cravory Cafe Logo" style="height: 80px; width: 80px;border-radius: 50%;padding:0px 5px">
+      <h2 style="font-family: cursive;">CRAVORY CAFE</h2>
+      </a>
+     </div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="offers.html">Menu</a>
+      <a href="offers.html">Offers</a>
+      <a href="testimonials">Testimonials</a>
+      <a href="#contact.html">Contact Us</a>
+    </nav>
+    </header>
+  <main>
+    <div CLASS="main-section">
+        <div class="sub-main-section">
+        <h2 style="padding-top:30px; font-family: cursive;">OFFERS </h2>
+        <P style="padding-top: 10px; font-family: cursive; font-size: 25px;">Taste the trend. Eat the vibe. with your cravory ...<i style="font-size: 30px;" class="fa-solid fa-seedling"></i></P>
+            <img src="coffee.jpg" alt="offers" class="offerimage">
+            <div class="offer-section">
+                <h1 style="font-size: 40px;font-family: cursive;">
+                    Get up top<br>
+                    <spam style="font-size: 70px;">50%</spam>&nbsp;<spam style="font-family: fantasy;font-size: 50px;">oFF</spam>
+                </h1>
+                <p style="font-family: cursive;font-size: 25px;"> on your dining bills with Cravory cafe <i style="font-size: 30px;" class="fa-solid fa-mug-hot"></i></p>
+            </div>
+        </div>
+    </div>
+  </main>
+  <section>
+    <div class="section">
+        <div class="h1"> 
+            <h1 style="padding: 20px;font-family: cursive;">Book your orders</h1>
+        </div>
+      <div class="sub-section" style="display: flex;flex-direction: row;justify-content: space-around; flex-wrap: wrap;">
+        <!-- <h1 style="font-family: cursive; margin-top:2px;padding: 15px;">Book Your Order</h1> -->
+        <div class="image-section">
+        <img style="height: 40vh;width:30vw;padding:5px;border-radius: 15px;"src="cheese.jpg" alt="cheese">
+        <h3 style="margin-top: 5px;font-family: cursive;"> pizza <br>
+             Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br>
+             flat 100% off
+        </h3>
+        <button style="height: 40px; width: 90px;padding:5px 8px; border-radius: 5px; margin: 8px;background-color:rgb(124, 121, 121);color:white"> book now</button>
+        </div>
+        <div class="image-section">
+        <img style="height: 40vh;width:30vw;padding:5px;border-radius: 15px;"src="icecream.jpg" alt="icecream">
+        <h3 style="margin-top: 5px;font-family: cursive;">  ice-cream<br>
+             Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br>
+             flat 20% off
+        </h3>
+        <button style="height: 40px; width: 90px;padding:5px 8px; border-radius: 5px; margin: 8px;background-color:rgb(124, 121, 121);color:white"> book now</button>
+        </div>
+        <div class="image-section">
+        <img style="height: 40vh;width:30vw;padding:5px;border-radius: 15px;"src="pastery.jpg" alt="pastery">
+        <h3 style="margin-top: 5px;font-family: cursive;"> pastery <br>
+             Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br>
+             flat 30% off
+        </h3>
+        <button style="height: 40px; width: 90px;padding:5px 8px; border-radius: 5px; margin: 8px;background-color:rgb(124, 121, 121);color:white"> book now</button>
+        </div>
+        <div class="image-section">
+        <img style="height: 40vh;width:30vw;padding:5px;border-radius: 15px;"src="coffee1.jpg" alt="coffee">
+        <h3 style="margin-top: 5px;font-family: cursive;"> coffee<br>
+             Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br>
+             flat 40% off
+        </h3>
+        <button style="height: 40px; width: 90px;padding:5px 8px; border-radius: 5px; margin: 8px;background-color:rgb(124, 121, 121);color:white"> book now</button>
+        </div>
+        <div class="image-section">
+        <img style="height: 40vh;width:30vw;padding:5px;border-radius: 15px;"src="burger.jpg" alt="burger">
+        <h3 style="margin-top: 5px;font-family: cursive;">burger<br>
+             Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br>
+             flat 90% off
+        </h3>
+        <button style="height: 40px; width: 90px;padding:5px 8px; border-radius: 5px; margin: 8px;background-color:rgb(124, 121, 121);color:white"> book now</button>
+        </div>
+        <div class="image-section">
+        <img style="height: 40vh;width:30vw;padding:5px;border-radius: 15px;"src="coffee2.jpg" alt="coffee">
+        <h3 style="margin-top: 5px;font-family: cursive;">cold-coffee<br>
+             Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br>
+             flat 60% off
+        </h3>
+        <button style="height: 40px; width: 90px;padding:5px 8px; border-radius: 5px; margin: 8px;background-color:rgb(124, 121, 121);color:white"> book now</button>
+        </div>
+      </div>  
+    </div>
+  </section>
+  <!-- <footer class="heading">
+            <h2 style="text-align: center;">Cravory Cafe</h2>
+            <h4 style="text-align: center;">
+                &nbsp;&nbsp; contact no : <i class="fa-brands fa-square-instagram"></i>&nbsp;&nbsp;<i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;<i class="fa-solid fa-address-book"></i><br>
+               <i class="fa-solid fa-envelope"></i> &nbsp; email:bantuyashwanth4@gmail.com<br>
+               <i class="fa-brands fa-square-instagram"> &nbsp;</i> instagram:_____bantu_____
+            </h4>
+        </div>
+    </footer> --> 
+    <footer>
+        <div class="container">
+            <div class="footer-content" style="color: white;">
+                <h3>Contact Us</h3>
+                <p>Email:Cravorycafe@gmail.com</p>
+                <p>Phone:+91 80000 90000</p>
+                <p>Address: betweenbeach-of-ocean</p>
+            </div>
+            <div class="footer-content" style="color: white;">
+                <h3>Quick Links</h3>
+                 <ul class="list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contact</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content" style=color:white;>
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                 <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                 <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                 <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                </div>
+        </div>
+        
+        <div class="bottom-bar">
+            <p>&copy; 2023 your company . All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+   <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      header {
+      background: #d2691e;
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top:0;
+    }
+    nav {
+      display: flex;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+    nav a:hover {
+      background: #f4a261;
+      color: #4b3f2f;
+      transform: scale(1.3);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      margin-right: 10px;}
+      
+      .sub-section{
+        display: flex;
+      }
+      .div-logo:hover{
+         background-color: #f6a364;
+         padding:5px 8px;
+         border-radius: 5px;
+         color: black;
+      }
+      /* ------------------- (cart-section) ------------------*/
+      .card{
+        height: 65vh;
+        width: 65vh;
+        background-color: aquamarine;
+        margin-left: 35%;
+        border-radius: 7px;
+      }
+      .gap{
+        padding: 10px;
+      }
+      .form:hover{
+        border: 3px solid black;
+        background-color: #f6a364;
+      }
+      /* -------------------(footer-section)---------- */
+      footer{
+        background: #343434;
+        padding-top: 50px;
+    }
+    .container{
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-content{
+        width: 33.3%;
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-content p{
+        width:190px;
+        margin: auto;
+        padding: 7px;
+    }
+    .footer-content ul{
+        text-align: center;
+    }
+    .list{
+        padding: 0;
+    }
+    .list li{
+        width: auto;
+        text-align: center;
+        list-style-type:none;
+        padding: 7px;
+        position: relative;
+    }
+    .list li::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: #f18930;
+        transition-duration: .5s;
+    }
+    .list li:hover::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+    .social-icons i{
+        color: white;
+        font-size: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: #f18930;
+    }
+    .social-icons i:hover{
+        color: #f18930;}
+    
+    .bottom-bar{
+        background: #f18930;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+        border: 2px solid white;
+    }
+    .bottom-bar p{
+        color: #343434;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;  
+    }
+   </style>   
+</head>
+<body>
+  <header>
+     <div class="div-logo">  
+      <a href="#" class="logo">
+      <img src="logo.jpg" alt="Cravory Cafe Logo" style="height: 80px; width: 80px;border-radius: 50%;padding:0px 5px">
+      <h2 style="font-family: cursive;">CRAVORY CAFE</h2>
+      </a>
+     </div> 
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="offers.html">Menu</a>
+      <a href="offers.html">Offers</a>
+      <a href="testimonials">Testimonials</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <section id="contact" style="font-family:cursive; background-color: #fff8f0; padding: 40px;">
+  <div style="max-width: 800px; margin: auto;">
+    <h2 style="text-align: center; color: #6b3e26;padding: 20px;"> Contact Us</h2>
+    <p style="text-align: center; margin-bottom: 40px; color: #444;">We'd love to hear from you! Drop by, call, or message us anytime.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 30px;">
+      
+      <div style="flex: 1; min-width: 250px;">
+        <div class="gap">
+        <h3 style="color: #6b3e26;font-size: 20px;"><i style="margin-left: -255px;" class="fa-solid fa-location-dot"></i> Visit Us</h3>
+        <p>Cravory Cafe<br>beside RK beach<br>Coffee Town, vizag<br>Andhrapradesh – 500001</p>
+        </div>
+        <div class="gap">
+        <h3 style="color: #6b3e26;font-size: 20px;"><i style="margin-left: -270px;" class="fa-solid fa-phone"></i> Call Us</h3>
+        <p>+91 80000 70000</p>
+        </div>
+        <div class="gap">
+        <h3 style="color: #6b3e26;font-size: 20px;"><i style="margin-left: -240px;" class="fa-solid fa-envelope"></i> Email Us</h3>
+        <p>support@cravorycafe.com</p>
+        </div>
+        <div class="gap">
+        <h3 style="color: #6b3e26;font-size: 20px;"><i style="margin-left: -177px;" class="fa-solid fa-clock"></i> Working Hours</h3>
+        <p>Mon – Sun: 9:00 AM – 12:00 PM</p>
+        </div>
+      </div>
+
+      <div style="flex: 1; min-width: 250px;margin-top: -33px;">
+        <form action="#" method="post" style="display: flex; flex-direction: column; gap: 15px;">
+          <br>
+          <input type="text" name="name" placeholder="Enter your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;"class="form">
+          <br>
+          <input type="email" name="email" placeholder=" Enter Your Email" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;"class="form">
+          <br>
+          <textarea name="message" rows="5" placeholder=" Enter Your Message" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;"class="form"></textarea>
+          <br>
+          <button type="submit" style="background-color: #6b3e26; color: white; padding: 10px; border: none; border-radius: 5px;"class="form">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </section>
+  </main>
+  <footer>
+        <div class="container">
+            <div class="footer-content" style="color: white;">
+                <h3>Contact Us</h3>
+                <p>Email:Cravorycafe@gmail.com</p>
+                <p>Phone:+91 80000 90000</p>
+                <p>Address: betweenbeach-of-ocean</p>
+            </div>
+            <div class="footer-content" style="color: white;">
+                <h3>Quick Links</h3>
+                 <ul class="list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contact</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content" style=color:white;>
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                 <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                 <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                 <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                </div>
+        </div>
+        
+        <div class="bottom-bar">
+            <p>&copy; 2023 your company . All rights reserved</p>
+        </div>
+  </footer>
+</body>
+</html>

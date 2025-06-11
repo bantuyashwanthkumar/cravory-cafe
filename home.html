@@ -1,0 +1,205 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cravory Cafe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cravory Cafe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    body {
+      background: #fff3e0;
+      color: #4b3f2f;
+    }
+
+   .container {
+  height: 100vh;
+  background: url('cover.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+  filter: blur(0px);
+  animation-name: photo;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+ 
+    @keyframes photo {
+      0% {
+        transform: scale(0.95) translateY(30px);
+        filter: blur(10px);
+      }
+      100% {
+        transform: scale(1) translateY(1);
+      }
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 40px;
+      font-weight: bold;
+      color: #d2691e;
+      text-decoration: none;
+    }
+
+    .logo img {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      margin-right: 15px;
+      filter: drop-shadow(3px 3px 5px #d2691e);
+    }
+
+    .logo:hover{
+       transform: scale(1.1);
+    }
+
+    nav {
+      display: flex;
+    }
+
+    nav a {
+      background: #e7a97d;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 12px;
+      font-size: 15px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      transform: scale(1.3);
+    }
+
+    .welcome {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 20px;
+  filter: drop-shadow(3px 3px 5px #e5ad84);
+}
+
+    .welcome h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      text-decoration: underline;
+    }
+
+    .welcome p {
+      font-size: 24px;
+      max-width: 600px;
+
+    }
+
+  .about-image {
+  width: 250px; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(210, 105, 30, 0.2);
+  margin: 0 20px; 
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px;
+}
+
+.about {
+  background: #df9f57;
+  padding: 50px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(210, 105, 30, 0.2);
+  text-align: center;
+  max-width: 600px;
+}
+
+    footer {
+      background: #d2691e;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <a href="home.html" class="logo"><img src="logo.jpg" alt="Cravory Cafe Logo">Cravory Cafe</a>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="offers.html">Offers</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+      </nav>
+    </header>
+
+    <div class="welcome">
+      <h1>Welcome to Cravory Cafe</h1>
+      <p>Your craving, our passion — serving smiles with every bite.</p>
+    </div>
+  </div>
+
+  <section class="about-container">
+  <img src="about1.jpg" alt="About Image 1" class="about-image">
+  <div class="about">
+    <h2>About Cravory Cafe</h2><br>
+    <p>
+      At Cravory Cafe, we bring you a delightful fusion of flavors from around the world. Whether you're craving fresh snacks, gourmet bites, or comforting classics, our menu is crafted with passion and the finest ingredients. We believe food is not just nourishment, but an experience — one that warms your heart and sparks joy. Come relax in our cozy ambiance and taste the love in every bite!
+    </p>
+  </div>
+  <img src="about2.jpg" alt="About Image 2" class="about-image">
+</section>
+
+  
+  <footer>
+    &copy; 2025 Cravory Cafe. All rights reserved. | Crafted with love by Cravory Team
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+ 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #fff3e0, #fef7f0);
+      color: #4b3f2f;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    header {
+      background: #d2691e;
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top:0;
+      z-index: 100;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 28px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      margin-right: 10px;
+    }
+    .logo img {
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      filter: drop-shadow(4px 4px 5px rgba(223, 218, 218, 0.3));
+      margin-right: 20px;
+    }
+    .logo:hover {
+      transform: scale(1.1) ;
+    }
+    nav {
+      display: flex;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+    nav a:hover {
+      background: #f4a261;
+      color: #4b3f2f;
+      transform: scale(1.3);
+    }
+
+    
+    footer {
+      background: #d2691e;
+      color: #fff;
+      text-align: center;
+      padding: 20px 15px;
+      margin-top: auto;
+      font-size: 14px;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:50px;
+    }
+    .parts{
+        height:350px;
+        width:350px;
+        background-color: bisque;
+        border: 1px solid rgb(0,0,0,0.3);
+        margin-top: 50px;
+        margin-left:50px;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    .menu-head{
+      text-align: center;
+      padding:50px;
+      color:#2A4759;
+    }
+    .para{
+      color:black;
+      text-align: center;
+      padding:30px;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="home.html" class="logo">
+      <img src="logo.jpg" alt="Cravory Cafe Logo">
+      Cravory Cafe
+    </a>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="offers.html">Offers</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </nav>
+  </header>
+  
+  <div class="menu">
+    <a href="bestsellers.html" class="parts"><div><h3 class="menu-head">Bestsellers</h3><img style="margin-top:-30px; margin-left:40px;" src="pizzza.jpg" height="180" width="250"><p style="margin-top: -10px;" class="para">Loved by all, picked by most. Discover our all-time favorites</p></div></a>
+    <a href="coffee.html" class="parts"><div><h3 class="menu-head">Coffee</h3><img style="margin-top:-35px; margin-left:55px;" src="coffee.jpg" height="180" width="250"><p style="margin-top: -25px;" class="para">Brews that awaken your soul. Freshly ground, passionately served.</p></div></a>
+    <a href="food.html" class="parts"><div><h3 class="menu-head">Food</h3><img style="margin-top:-35px; margin-left:55px;" src="burger.jpg" height="180" width="250"><p style="margin-top: -10px;" class="para">From hearty bites to wholesome delights — taste the crave!</p></div></a>
+    <a href="bevarages.html" class="parts"><div><h3 class="menu-head">Bevarages</h3><img style="margin-top:-35px; margin-left:55px;" src="mocktail.jpg" height="180" width="250"><p style="margin-top: -10px;" class="para">Chill, sip, repeat. Refreshing drinks for every mood.</p></div></a>
+    <a href="desserts.html" class="parts"><div><h3 class="menu-head">Desserts</h3><img style="margin-top:-35px; margin-left:55px;" src="icecream.jpg" height="180" width="250"><p style="margin-top: -10px;" class="para">Indulge your sweet tooth with heavenly treats.</p></div></a>
+    <a href="deals.html" class="parts"><div><h3 class="menu-head">Exclusive Deals</h3><img style="margin-top:-35px; margin-left:55px;" src="combos.jpg" height="180" width="250"><p style="margin-top: -10px;" class="para">Special offers just for you! Grab them before they’re gone.</p></div></a>
+  </div>
+
+  <footer>
+    &copy; 2025 Cravory Cafe. All rights reserved. | Crafted with love by Cravory Team
+  </footer>
+
+</body>
+</html>
