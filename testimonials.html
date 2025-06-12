@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <title>Testimonials </title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #f7d1a5, #fef7f0);
+      color: #4b3f2f;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      background: rgba(210, 105, 30, 0.9);
+      color: #fff;
+      z-index: 100;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 28px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .logo img {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+
+    nav {
+      display: flex;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin:10px;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+
+    nav a:hover {
+      background: #f4a261;
+      color: #4b3f2f;
+      transform: scale(1.1);
+    }
+
+    .testimonials-container {
+      text-align: center;
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .testimonials-container h2 {
+      font-size: 42px;
+      color: #d2691e;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-bottom: 40px;
+    }
+
+    .testimonial-review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(210, 105, 30, 0.2);
+  text-align: center;
+  width: 300px;
+  margin: 15px;
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(210, 105, 30, 0.3);
+}
+    .testimonial p {
+      font-size: 18px;
+      line-height: 1.8;
+      font-style: italic;
+      padding-bottom: 10px;
+    }
+
+    .testimonial span {
+      font-weight: bold;
+      display: block;
+      margin-top: 12px;
+      color: #d2691e;
+      text-transform: uppercase;
+    }
+
+    footer {
+      background: #d2691e;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="home.html" class="logo"><img src="logo.png" alt="Cravory Cafe Logo">Cravory Cafe</a>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="offers.html">Offers</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </nav>
+  </header>
+
+  <section class="testimonials-container">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-review">
+      
+      <div class="testimonial">
+        <p>"Cravory Cafe is where passion meets flavor! The ambiance is delightful, and the food never fails to impress. Highly recommended!"</p>
+        <span>- Virat</span>
+      </div>
+
+      <div class="testimonial">
+        <p>"I’ve traveled the world, but Cravory Cafe holds a special place in my heart. Their coffee is perfection, and the desserts are unforgettable!"</p>
+        <span>- Anushka Sharma</span>
+      </div>
+
+      <div class="testimonial">
+        <p>"There's something magical about this place. Every bite feels like a celebration of flavor and craftsmanship. I'm coming back for more!"</p>
+        <span>- Nobitha </span>
+      </div>
+
+      <div class="testimonial">
+        <p>"Exceptional service, cozy atmosphere, and flavors that spark joy. This is my go-to spot for both comfort food and gourmet surprises!"</p>
+        <span>- Vicky jain</span>
+      </div>
+
+      <div class="testimonial">
+        <p>"Cravory Cafe has mastered the art of creating unforgettable dining experiences. The food, the vibe, the people—everything is flawless!"</p>
+        <span>- Vaishnavi</span>
+      </div>
+
+      <div class="testimonial">
+        <p>"I’ve never tasted anything quite like the pastries here. From the first bite to the last, it’s a journey of sweetness and delight!"</p>
+        <span>- Priya</span>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Cravory Cafe. All rights reserved. | Crafted with love by Cravory Team
+  </footer>
+
+</body>
+</html>
