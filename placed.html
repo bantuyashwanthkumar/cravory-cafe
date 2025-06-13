@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cart</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+ 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #fff3e0, #fef7f0);
+      color: #4b3f2f;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    header {
+      background: #d2691e;
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top:0;
+      z-index: 100;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 28px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      margin-right: 10px;
+    }
+    .logo img {
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      filter: drop-shadow(4px 4px 5px rgba(223, 218, 218, 0.3));
+      margin-right: 20px;
+    }
+    .logo:hover {
+      transform: scale(1.1) ;
+    }
+    nav {
+      display: flex;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+    nav a:hover {
+      background: #f4a261;
+      color: #4b3f2f;
+      transform: scale(1.3);
+    }
+
+    
+    footer {
+      background: #d2691e;
+      color: #fff;
+      text-align: center;
+      padding: 20px 15px;
+      margin-top: 235px;
+      font-size: 14px;
+    }
+    .add{
+        text-align: center;
+        color:#2A4759;
+        padding:35px;
+        margin-top: 200px;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="home.html" class="logo">
+      <img src="logo.jpg" alt="Cravory Cafe Logo">
+      Cravory Cafe
+    </a>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="offers.html">Offers</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </nav>
+  </header>
+  <div class="add">
+    <h1>Your order placed successfully!!!</h1>
+  </div>
+
+
+
+
+  <footer>
+    &copy; 2025 Cravory Cafe. All rights reserved. | Crafted with love by Cravory Team
+  </footer>
+
+</body>
+</html>
